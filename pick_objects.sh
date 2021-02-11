@@ -17,6 +17,6 @@ xterm -e " roslaunch turtlebot_rviz_launchers view_navigation.launch " &
 sleep 5
 
 #xterm -hold -e " roslaunch turtlebot_teleop keyboard_teleop.launch" 
-xterm -e " rosrun pick_objects src/pick_objects.cpp" 
+xterm -hold -e " rosrun pick_objects pick_objects" 
  
 #sleep 5
